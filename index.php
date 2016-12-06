@@ -4,7 +4,7 @@
  * Home page fo the Shop application.
  */
 
-include_once '/header.html';
+include_once 'header.html';
 ?>
 
 <div class="container marketing">

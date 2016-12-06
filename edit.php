@@ -5,7 +5,7 @@
  */
 
 // Require the controller file.
-require '/lib/controller.php';
+require 'lib/controller.php';
 
 $product_id = isset($_GET['product']) ? $_GET['product'] : $_POST['product_id'];
 
@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
   }
 }
 
-include_once '/header.html';
+include_once 'header.html';
 ?>
 
 <?php if (!$errors): ?>

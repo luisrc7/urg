@@ -5,7 +5,7 @@
  */
 
 // Require the controller file.
-require '/lib/controller.php';
+require 'lib/controller.php';
 
 $form_values = validate_form($_POST, $_FILES);
 $product = FALSE;
@@ -22,7 +22,7 @@ if (is_valid_form($form_values)) {
     unset($form_values['image']);
   }
 }
-include_once '/header.html';
+include_once 'header.html';
 ?>
 
 

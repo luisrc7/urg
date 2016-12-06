@@ -5,11 +5,11 @@
  */
 
 // Require the controller file.
-require '/lib/controller.php';
+require 'lib/controller.php';
 
 $products = retrieve_all_products();
 
-include_once '/header.html';
+include_once 'header.html';
 ?>
 
 <?php if (is_array($products)): ?>
