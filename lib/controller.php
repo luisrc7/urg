@@ -6,7 +6,7 @@
 
 /** Require API library **/
 // using existing library: https://github.com/cmcdonaldca/ohShopify.php/blob/7ee7a344ca83518a0560ba585d4f8deab65bf5cd/shopify.php
-require 'ohshopify/shopify.php';
+require '/ohshopify/shopify.php';
 
 /** Shopify keys **/
 define('SHOPIFY_API_KEY','6b12e2c3d88557ff0d62d03b183fdf58');
